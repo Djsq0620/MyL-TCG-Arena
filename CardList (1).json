@@ -1,0 +1,36 @@
+[
+  {
+    "id": "162_007",
+    "name": "Carta Ejemplo 007",
+    "type": "Aliado",
+    "image": "https://url-de-la-imagen-007.jpg",
+    "description": "Furia. Esta es una carta de prueba.",
+    "race": "Héroe",
+    "stats": {
+      "strength": "4",
+      "cost": "2"
+    }
+  },
+  {
+    "id": "162_001",
+    "name": "Carta Ejemplo 001",
+    "type": "Oro",
+    "image": "https://url-de-la-imagen-001.jpg",
+    "description": "Oro inicial.",
+    "race": "Oro",
+    "stats": {
+        "cost": "0"
+    }
+  },
+  {
+    "id": "162_002",
+    "name": "Carta Ejemplo 002",
+    "type": "Talisman",
+    "image": "https://url-de-la-imagen-002.jpg",
+    "description": "Anula un ataque.",
+    "race": "Talisman",
+    "stats": {
+        "cost": "1"
+    }
+  }
+]
