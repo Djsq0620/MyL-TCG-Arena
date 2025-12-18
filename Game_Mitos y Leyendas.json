@@ -1,0 +1,288 @@
+{
+  "name": "Mitos y Leyendas",
+  "menuBackgroundImage": "",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": "ttp://googleusercontent.com/image_collection/image_retrieval/12148745969950569771_0"
+  },
+  "customHelp": "Controles: Arrastra las cartas para jugar. Para jugar una carta boca abajo (o en defensa), mantén presionada la tecla 'Z' antes de soltar la carta en el tablero. Haz clic en una carta para girarla.",
+  "cardRotation": 90,
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/Djsq0620/MyL-TCG-Arena/256330292b64e4f4f85bdb20108852f563d9acd2/CardList%20(1).json",
+    "cardBack": "http://googleusercontent.com/image_collection/image_retrieval/12148745969950569771_0",
+    "cardBackColor": "#000000"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "race",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "Formato Mitos",
+        "gameplay": "Classic",
+        "customCategories": [
+          "Oro Inicial",
+          "Mazo Castillo"
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "Si tu mano no es buena, puedes hacer Mulligan: Barajas tu mano y robas 1 carta menos (8 -> 7 -> 6...).",
+        "startingHandSize": 8,
+        "drawNewHand": true,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "AttackLine",
+          "DefenseLine",
+          "SupportLine",
+          "PaidGold",
+          "Deck",
+          "Graveyard",
+          "Exile",
+          "GoldReserve"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "column",
+              "style": {
+                "width": "25%",
+                "justifyContent": "space-between",
+                "marginRight": "1vh"
+              },
+              "content": [
+                {
+                  "direction": "row",
+                  "style": {
+                    "height": "35%",
+                    "marginBottom": "1vh"
+                  },
+                  "content": [
+                    {
+                      "section": ""
+                    },
+                    {
+                      "section": "PaidGold",
+                      "style": false
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "height": "35%"
+                  },
+                  "content": [
+                    {
+                      "section": "Graveyard"
+                    },
+                    {
+                      "section": "Deck"
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "height": "35%"
+                  },
+                  "content": [
+                    {
+                      "section": "Exile",
+                      "style": false
+                    },
+                    {
+                      "section": "GoldReserve",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "74%"
+              },
+              "content": [
+                {
+                  "section": "AttackLine",
+                  "style": {
+                    "marginBottom": "1vh"
+                  }
+                },
+                {
+                  "section": "DefenseLine",
+                  "style": {
+                    "marginBottom": "1vh"
+                  }
+                },
+                {
+                  "section": "SupportLine"
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+	  "Mazo Castillo->Deck",
+          "Oro Inicial->GoldReserve"
+        ],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "AttackLine": {
+            "title": "AttackLine",
+            "displayedTitle": "Línea de Ataque",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "isHorizontalAllowed": true,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "DefenseLine": {
+            "title": "DefenseLine",
+            "displayedTitle": "Línea de Defensa",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "isHorizontalAllowed": true,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SupportLine": {
+            "title": "SupportLine",
+            "displayedTitle": "Línea de Apoyo",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "isHorizontalAllowed": true,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "PaidGold": {
+            "title": "PaidGold",
+            "displayedTitle": "Oro Pagado",
+            "isHidden": "no",
+            "height": "SMALL",
+            "isHorizontalAllowed": true,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Deck": {
+            "title": "Deck",
+            "displayedTitle": "Mazo Castillo",
+            "isHidden": "yes",
+            "alignment": "DECK",
+            "height": "SMALL",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Graveyard": {
+            "title": "Graveyard",
+            "displayedTitle": "Cementerio",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "GoldReserve": {
+            "title": "GoldReserve",
+            "displayedTitle": "Reserva de Oro",
+            "isHidden": "no",
+            "height": "SMALL",
+            "isHorizontalAllowed": true,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Exile": {
+            "title": "Exile",
+            "displayedTitle": "Destierro",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}
