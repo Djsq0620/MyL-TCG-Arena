@@ -66,20 +66,22 @@
             {
               "direction": "column",
               "style": {
-                "width": "25%",
+                "width": "20%",
                 "justifyContent": "space-between",
-                "marginRight": "1vh"
+                "marginRight": "0.5vh"
               },
               "content": [
                 {
                   "direction": "row",
                   "style": {
-                    "height": "35%",
-                    "marginBottom": "1vh"
+                    "height": "30%",
+                    "marginBottom": "0.2vh"
                   },
                   "content": [
                     {
-                      "section": ""
+                      "section": "",
+                      "style": "",
+                      "isSymetricalForOpponents": false
                     },
                     {
                       "section": "PaidGold",
@@ -90,7 +92,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "35%"
+                    "height": "30%"
                   },
                   "content": [
                     {
@@ -104,7 +106,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "35%"
+                    "height": "30%"
                   },
                   "content": [
                     {
@@ -147,12 +149,130 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-	  "Mazo Castillo->Deck",
+          "Mazo Castillo->Deck",
           "Oro Inicial->GoldReserve"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
+          "Hand": {
+            "isDefaultSection": true,
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "autoPayFrom": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Discard": {
+            "isDefaultSection": true,
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Deck": {
+            "title": "Deck",
+            "displayedTitle": "Mazo Castillo",
+            "isHidden": "yes",
+            "alignment": "DECK",
+            "height": "SMALL",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Pile",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Exile": {
+            "title": "Exile",
+            "displayedTitle": "Destierro",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ExileHidden": {
+            "isDefaultSection": true,
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "displayedTitle": "Removed hidden",
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Sideboard": {
+            "isDefaultSection": true,
+            "title": "Sideboard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "AttackLine": {
             "title": "AttackLine",
             "displayedTitle": "Línea de Ataque",
@@ -217,22 +337,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Deck": {
-            "title": "Deck",
-            "displayedTitle": "Mazo Castillo",
-            "isHidden": "yes",
-            "alignment": "DECK",
-            "height": "SMALL",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "Graveyard": {
             "title": "Graveyard",
             "displayedTitle": "Cementerio",
@@ -258,22 +362,6 @@
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Exile": {
-            "title": "Exile",
-            "displayedTitle": "Destierro",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
