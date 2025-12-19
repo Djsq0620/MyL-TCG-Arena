@@ -1,5 +1,5 @@
 {
-  "name": "asdfmasdfoasdf ",
+  "name": "asdawqeqweqwewqe 2",
   "menuBackgroundImage": "",
   "defaultRessources": {
     "backgrounds": [],
@@ -66,22 +66,23 @@
             {
               "direction": "column",
               "style": {
-                "width": "20%",
-                "justifyContent": "space-between",
+                "width": "25%",
+                "justifyContent": "start", 
                 "marginRight": "1vh"
               },
               "content": [
                 {
                   "direction": "row",
                   "style": {
-                    "height": "15%",
-                    "justifyContent": "flex-end"
+                    "height": "30%",
+                    "justifyContent": "flex-end",
+                    "marginBottom": "1vh"
                   },
                   "content": [
                     {
                       "section": "PaidGold",
                       "style": {
-                        "width": "15%"
+                        "width": "48%"
                       }
                     }
                   ]
@@ -89,42 +90,35 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "15%",
-                    "justifyContent": "space-between"
+                    "height": "30%",
+                    "justifyContent": "space-between",
+                    "marginBottom": "1vh"
                   },
                   "content": [
                     {
                       "section": "Graveyard",
-                      "style": {
-                        "width": "15%"
-                      }
+                      "style": { "width": "48%" }
                     },
                     {
                       "section": "Deck",
-                      "style": {
-                        "width": "15%"
-                      }
+                      "style": { "width": "48%" }
                     }
                   ]
                 },
                 {
                   "direction": "row",
                   "style": {
-                    "height": "15%",
+                    "height": "30%",
                     "justifyContent": "space-between"
                   },
                   "content": [
                     {
                       "section": "Exile",
-                      "style": {
-                        "width": "15%"
-                      }
+                      "style": { "width": "48%" }
                     },
                     {
                       "section": "GoldReserve",
-                      "style": {
-                        "width": "15%"
-                      }
+                      "style": { "width": "48%" }
                     }
                   ],
                   "isSymetricalForOpponents": false
@@ -135,27 +129,27 @@
             {
               "direction": "column",
               "style": {
-                "width": "70%",
-                "justifyContent": "space-between"
+                "width": "73%",
+                "justifyContent": "start"
               },
               "content": [
                 {
                   "section": "AttackLine",
-                  "style": {
-                    "height": "15%"
+                  "style": { 
+                      "height": "32%",
+                      "marginBottom": "1vh"
                   }
                 },
                 {
                   "section": "DefenseLine",
-                  "style": {
-                    "height": "15%"
+                  "style": { 
+                      "height": "32%",
+                      "marginBottom": "1vh"
                   }
                 },
                 {
                   "section": "SupportLine",
-                  "style": {
-                    "height": "15%"
-                  }
+                  "style": { "height": "32%" }
                 }
               ]
             }
