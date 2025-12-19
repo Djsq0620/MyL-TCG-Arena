@@ -1,5 +1,5 @@
 {
-  "name": "Mitos y leyendas",
+  "name": "Mitos y leyendas 3",
   "menuBackgroundImage": "",
   "defaultRessources": {
     "backgrounds": [],
@@ -66,7 +66,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "20%",
+                "width": "25vh",
                 "justifyContent": "space-between",
                 "marginRight": "1vh"
               },
@@ -74,22 +74,20 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "25%",
+                    "height": "20%",
                     "justifyContent": "space-between"
                   },
                   "content": [
                     {
                       "direction": "column",
-                      "style": {
-                        "width": "48%"
-                      },
+                      "style": false,
                       "content": [],
                       "isSymetricalForOpponents": false
                     },
                     {
                       "section": "PaidGold",
                       "style": {
-                        "width": "48%"
+                        "width": "40%"
                       }
                     }
                   ]
@@ -97,20 +95,20 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "25%",
+                    "height": "20%",
                     "justifyContent": "space-between"
                   },
                   "content": [
                     {
                       "section": "Graveyard",
                       "style": {
-                        "width": "48%"
+                        "width": "40%"
                       }
                     },
                     {
                       "section": "Deck",
                       "style": {
-                        "width": "48%"
+                        "width": "40%"
                       }
                     }
                   ]
@@ -118,8 +116,8 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "25%",
-                    "justifyContent": "flex-end"
+                    "height": "20%",
+                    "justifyContent": "space-between"
                   },
                   "content": [
                     {
@@ -143,26 +141,26 @@
             {
               "direction": "column",
               "style": {
-                "width": "75%",
+                "width": "70vh",
                 "justifyContent": "space-between"
               },
               "content": [
                 {
                   "section": "AttackLine",
                   "style": {
-                    "height": "25%"
+                    "height": "20%"
                   }
                 },
                 {
                   "section": "DefenseLine",
                   "style": {
-                    "height": "25%"
+                    "height": "20%"
                   }
                 },
                 {
                   "section": "SupportLine",
                   "style": {
-                    "height": "25%"
+                    "height": "20%"
                   }
                 }
               ]
