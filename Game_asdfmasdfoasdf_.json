@@ -1,5 +1,5 @@
 {
-  "name": "asdawqeqweqwewqe 3",
+  "name": "asdawqeqweqwewqe 4",
   "menuBackgroundImage": "",
   "defaultRessources": {
     "backgrounds": [],
@@ -67,16 +67,16 @@
               "direction": "column",
               "style": {
                 "width": "25%",
-                "justifyContent": "start", 
+                "justifyContent": "start",
                 "marginRight": "1vh"
               },
               "content": [
                 {
                   "direction": "row",
                   "style": {
-                    "height": "25vh",
+                    "height": "22vh",
                     "justifyContent": "flex-end",
-                    "marginBottom": "1vh"
+                    "marginBottom": "2vh"
                   },
                   "content": [
                     {
@@ -90,9 +90,9 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "25vh",
+                    "height": "22vh",
                     "justifyContent": "space-between",
-                    "marginBottom": "1vh"
+                    "marginBottom": "2vh"
                   },
                   "content": [
                     {
@@ -108,7 +108,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "25vh",
+                    "height": "22vh",
                     "justifyContent": "space-between"
                   },
                   "content": [
@@ -136,20 +136,20 @@
                 {
                   "section": "AttackLine",
                   "style": { 
-                      "height": "25vh",
-                      "marginBottom": "1vh"
+                      "height": "22vh",
+                      "marginBottom": "2vh"
                   }
                 },
                 {
                   "section": "DefenseLine",
                   "style": { 
-                      "height": "25vh",
-                      "marginBottom": "1vh"
+                      "height": "22vh",
+                      "marginBottom": "2vh"
                   }
                 },
                 {
                   "section": "SupportLine",
-                  "style": { "height": "25vh" }
+                  "style": { "height": "22vh" }
                 }
               ]
             }
