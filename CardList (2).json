@@ -1,0 +1,25 @@
+{
+  "1": {
+    "id": "1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "sdf",
+        "type": false,
+        "cost": 0,
+        "image": "https://grimorio-cards.b-cdn.net/162_056_dracula.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "asdfwe",
+        "type": "",
+        "cost": 0,
+        "image": "https://grimorio-cards.b-cdn.net/162_003_fortaleza_hoshi_secreta.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ade",
+    "type": false,
+    "cost": 0
+  }
+}
