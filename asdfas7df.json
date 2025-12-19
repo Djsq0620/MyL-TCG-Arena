@@ -1,5 +1,5 @@
 {
-  "name": "dasfasdf 7",
+  "name": "dasfasdf 8",
   "menuBackgroundImage": "",
   "defaultRessources": {
     "backgrounds": [],
@@ -59,7 +59,7 @@
           "Exile",
           "GoldReserve"
         ],
-        "layout": {
+       "layout": {
           "direction": "row",
           "isSymetricalForOpponents": true,
           "content": [
@@ -74,9 +74,9 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "10vh",
+                    "height": "13vh", 
                     "justifyContent": "flex-end",
-                    "marginBottom": "0vh"
+                    "marginBottom": "1vh"
                   },
                   "content": [
                     {
@@ -90,9 +90,9 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "10vh",
+                    "height": "13vh", 
                     "justifyContent": "space-between",
-                    "marginBottom": "0vh"
+                    "marginBottom": "1vh"
                   },
                   "content": [
                     {
@@ -108,7 +108,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "10vh",
+                    "height": "13vh", 
                     "justifyContent": "space-between"
                   },
                   "content": [
@@ -136,21 +136,20 @@
                 {
                   "section": "AttackLine",
                   "style": { 
-                      "height": "10vh",
-                      "marginBottom": "0vh"
+                      "height": "13vh", 
+                      "marginBottom": "1vh"
                   }
                 },
                 {
                   "section": "DefenseLine",
                   "style": { 
-                      "height": "10vh",
-                      "marginBottom": "0vh"
+                      "height": "13vh", 
+                      "marginBottom": "1vh"
                   }
                 },
                 {
                   "section": "SupportLine",
-                  "style": { 
-                    "height": "10vh" }
+                  "style": { "height": "13vh" }
                 }
               ]
             }
