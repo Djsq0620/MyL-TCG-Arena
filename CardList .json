@@ -1,6 +1,7 @@
 [
-  {
+  "1": {
     "id": "162_007",
+    "isToken": false,
     "name": "Carta Ejemplo 007",
     "type": "Aliado",
     "image": "https://grimorio-cards.b-cdn.net/162_020_reina_nyssara.webp",
@@ -11,7 +12,7 @@
       "cost": "2"
     }
   },
-  {
+  "2": {
     "id": "162_001",
     "name": "Carta Ejemplo 001",
     "type": "Oro",
@@ -22,7 +23,7 @@
         "cost": "0"
     }
   },
-  {
+  "3": {
     "id": "162_002",
     "name": "Carta Ejemplo 002",
     "type": "Talisman",
@@ -35,3 +36,4 @@
   }
 
 ]
+
