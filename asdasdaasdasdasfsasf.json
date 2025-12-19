@@ -74,7 +74,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "15vh",
+                    "height": "10vh",
                     "justifyContent": "flex-end",
                     "marginBottom": "0vh"
                   },
@@ -90,7 +90,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "15vh",
+                    "height": "10vh",
                     "justifyContent": "space-between",
                     "marginBottom": "0vh"
                   },
@@ -108,7 +108,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "15vh",
+                    "height": "10vh",
                     "justifyContent": "space-between"
                   },
                   "content": [
@@ -136,20 +136,21 @@
                 {
                   "section": "AttackLine",
                   "style": { 
-                      "height": "15vh",
+                      "height": "10vh",
                       "marginBottom": "0vh"
                   }
                 },
                 {
                   "section": "DefenseLine",
                   "style": { 
-                      "height": "15vh",
+                      "height": "10vh",
                       "marginBottom": "0vh"
                   }
                 },
                 {
                   "section": "SupportLine",
-                  "style": { "height": "15vh" }
+                  "style": { 
+                    "height": "10vh" }
                 }
               ]
             }
