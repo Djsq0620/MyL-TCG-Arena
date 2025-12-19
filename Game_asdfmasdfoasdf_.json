@@ -1,5 +1,5 @@
 {
-  "name": "asdawqeqweqwewqe 5",
+  "name": "asdawqeqweqwewqe 6",
   "menuBackgroundImage": "",
   "defaultRessources": {
     "backgrounds": [],
@@ -74,7 +74,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "22vh",
+                    "height": "15vh",
                     "justifyContent": "flex-end",
                     "marginBottom": "0vh"
                   },
@@ -90,7 +90,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "22vh",
+                    "height": "15vh",
                     "justifyContent": "space-between",
                     "marginBottom": "0vh"
                   },
@@ -108,7 +108,7 @@
                 {
                   "direction": "row",
                   "style": {
-                    "height": "22vh",
+                    "height": "15vh",
                     "justifyContent": "space-between"
                   },
                   "content": [
@@ -136,20 +136,20 @@
                 {
                   "section": "AttackLine",
                   "style": { 
-                      "height": "22vh",
+                      "height": "15vh",
                       "marginBottom": "0vh"
                   }
                 },
                 {
                   "section": "DefenseLine",
                   "style": { 
-                      "height": "22vh",
+                      "height": "15vh",
                       "marginBottom": "0vh"
                   }
                 },
                 {
                   "section": "SupportLine",
-                  "style": { "height": "22vh" }
+                  "style": { "height": "15vh" }
                 }
               ]
             }
