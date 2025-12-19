@@ -3,7 +3,7 @@
     "id": "162_007",
     "name": "Carta Ejemplo 007",
     "type": "Aliado",
-    "image": "https://url-de-la-imagen-007.jpg",
+    "image": "https://grimorio-cards.b-cdn.net/162_020_reina_nyssara.webp",
     "description": "Furia. Esta es una carta de prueba.",
     "race": "Héroe",
     "stats": {
@@ -15,7 +15,7 @@
     "id": "162_001",
     "name": "Carta Ejemplo 001",
     "type": "Oro",
-    "image": "https://url-de-la-imagen-001.jpg",
+    "image": "https://grimorio-cards.b-cdn.net/162_056_dracula.webp",
     "description": "Oro inicial.",
     "race": "Oro",
     "stats": {
@@ -26,11 +26,12 @@
     "id": "162_002",
     "name": "Carta Ejemplo 002",
     "type": "Talisman",
-    "image": "https://url-de-la-imagen-002.jpg",
+    "image": "https://grimorio-cards.b-cdn.net/162_003_fortaleza_hoshi_secreta.webp",
     "description": "Anula un ataque.",
     "race": "Talisman",
     "stats": {
         "cost": "1"
     }
   }
+
 ]
