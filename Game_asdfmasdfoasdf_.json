@@ -1,5 +1,5 @@
 {
-  "name": "asdawqeqweqwewqe 4",
+  "name": "asdawqeqweqwewqe 5",
   "menuBackgroundImage": "",
   "defaultRessources": {
     "backgrounds": [],
@@ -76,7 +76,7 @@
                   "style": {
                     "height": "22vh",
                     "justifyContent": "flex-end",
-                    "marginBottom": "2vh"
+                    "marginBottom": "0vh"
                   },
                   "content": [
                     {
@@ -92,7 +92,7 @@
                   "style": {
                     "height": "22vh",
                     "justifyContent": "space-between",
-                    "marginBottom": "2vh"
+                    "marginBottom": "0vh"
                   },
                   "content": [
                     {
@@ -137,14 +137,14 @@
                   "section": "AttackLine",
                   "style": { 
                       "height": "22vh",
-                      "marginBottom": "2vh"
+                      "marginBottom": "0vh"
                   }
                 },
                 {
                   "section": "DefenseLine",
                   "style": { 
                       "height": "22vh",
-                      "marginBottom": "2vh"
+                      "marginBottom": "0vh"
                   }
                 },
                 {
