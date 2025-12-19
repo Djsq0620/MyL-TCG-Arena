@@ -1,0 +1,17 @@
+[
+  "1": {
+    "id": "162_007",
+    "isToken": false,
+    "name": "Carta Ejemplo 007",
+    "type": "Aliado",
+    "image": "https://grimorio-cards.b-cdn.net/162_020_reina_nyssara.webp",
+    "description": "Furia. Esta es una carta de prueba.",
+    "race": "Héroe",
+    "stats": {
+      "strength": "4",
+      "cost": "2"
+    }
+  }
+]
+
+
