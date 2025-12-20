@@ -7,7 +7,6 @@
         "name": "sdf",
         "type": "aliado",
         "cost": 0,
-        "race": "sacer"
         "image": "https://grimorio-cards.b-cdn.net/162_056_dracula.webp",
         "isHorizontal": false
       },
