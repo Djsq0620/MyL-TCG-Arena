@@ -8,7 +8,7 @@
   "customHelp": "Controles: Arrastra las cartas para jugar. Para jugar una carta boca abajo (o en defensa), mantén presionada la tecla 'Z' antes de soltar la carta en el tablero. Haz clic en una carta para girarla.",
   "cardRotation": 90,
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/Djsq0620/MyL-TCG-Arena/refs/heads/main/CardList%20fasdf.json",
+    "dataUrl": "https://raw.githubusercontent.com/Djsq0620/MyL-TCG-Arena/refs/heads/main/CardList.json",
     "cardBack": "",
     "cardBackColor": "#000000"
   },
