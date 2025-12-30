@@ -1,13 +1,1 @@
-{
-  "1": {
-    "id": "1",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "sdf",
-        "type": "aliado",
-        "cost": 0,
-        "image": "https://grimorio-cards.b-cdn.net/162_056_dracula.webp",
-        "isHorizontal": false
-      },
-}
+
